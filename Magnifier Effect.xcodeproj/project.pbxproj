@@ -11,6 +11,7 @@
 		15C82A832A727CAF003802FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C82A822A727CAF003802FF /* ContentView.swift */; };
 		15C82A852A727CB0003802FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C82A842A727CB0003802FF /* Assets.xcassets */; };
 		15C82A892A727CB0003802FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C82A882A727CB0003802FF /* Preview Assets.xcassets */; };
+		15C82A932A727D27003802FF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C82A922A727D27003802FF /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		15C82A842A727CB0003802FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15C82A862A727CB0003802FF /* Magnifier_Effect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Magnifier_Effect.entitlements; sourceTree = "<group>"; };
 		15C82A882A727CB0003802FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15C82A922A727D27003802FF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				15C82A802A727CAF003802FF /* Magnifier_EffectApp.swift */,
-				15C82A822A727CAF003802FF /* ContentView.swift */,
+				15C82A912A727CE4003802FF /* View */,
 				15C82A842A727CB0003802FF /* Assets.xcassets */,
 				15C82A862A727CB0003802FF /* Magnifier_Effect.entitlements */,
 				15C82A872A727CB0003802FF /* Preview Content */,
@@ -67,6 +69,15 @@
 				15C82A882A727CB0003802FF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		15C82A912A727CE4003802FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15C82A822A727CAF003802FF /* ContentView.swift */,
+				15C82A922A727D27003802FF /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15C82A832A727CAF003802FF /* ContentView.swift in Sources */,
+				15C82A932A727D27003802FF /* Home.swift in Sources */,
 				15C82A812A727CAF003802FF /* Magnifier_EffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
